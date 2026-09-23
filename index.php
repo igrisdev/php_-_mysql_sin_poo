@@ -9,7 +9,7 @@
 
 <body>
     <?php
-    if (!isset($_GET['vista']) || $_GET['vista'] = "") {
+    if (!isset($_GET['vista']) || $_GET['vista'] == "") {
         $_GET['vista'] = "login";
     }
 
