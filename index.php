@@ -9,10 +9,13 @@
 
 <body>
     <?php
+    if (!isset($_GET['vista']) || $_GET['vista'] = "") {
+        $_GET['vista'] = "login";
+    }
+
     include "./inc/navbar.php";
     include "./inc/script.php";
     ?>
-
 </body>
 
 </html>
